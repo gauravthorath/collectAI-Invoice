@@ -1,0 +1,102 @@
+.container {
+  display: flex;
+  flex-direction: column;
+}
+
+.logo {
+  margin-left: -40px;
+}
+
+.logoStyle {
+  width: 100%;
+  max-width: 300px;
+}
+
+.header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 30px;
+}
+
+.break {
+  flex-basis: 100%;
+  height: 25px;
+}
+
+.invoice-details {
+  text-align: right;
+}
+
+.company-info {
+  text-align: left;
+}
+
+.customer-info {
+  text-align: right;
+  margin-top: 20px;
+}
+
+.line-item-table {
+  background: #eee;
+  border-bottom: 1px solid #ddd;
+  font-weight: bold;
+  padding: 5px;
+}
+
+.table {
+  display: flex;
+  flex-direction: column;
+  border-collapse: collapse;
+  margin-top: 10px;
+}
+
+.table-row {
+  display: flex;
+  justify-content: space-between;
+  border-bottom: none;
+  padding-bottom: 10px 0;
+}
+
+.first {
+  flex: 0 0 70%;
+}
+
+.col {
+  flex: 0 0 1;
+}
+
+.table-cell {
+  flex: 1;
+}
+
+.header-row {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+  border-top: 1px solid #ddd;
+}
+
+.row-margin {
+  margin: 5px 0;
+  font-weight: bold;
+}
+
+.subtotal-row,
+.total-row {
+  border-bottom: 2px solid #eee;
+  font-weight: bold;
+  padding-bottom: 5px;
+}
+
+.vat-row {
+  border-bottom: 2px solid #eee;
+  padding-bottom: 5px;
+}
+
+.dropzone {
+  background-color: #d7f5dd;
+  padding: 20px 200px 20px 200px;
+  align-items: center;
+  justify-content: center;
+}
